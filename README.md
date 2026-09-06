@@ -1,3 +1,9 @@
+## UPDATE
+
+SpotifyFetch doesn't work anymore because I don't have Spotify Premium 🥹 while I figure that out... here's the old README:
+
+##
+
 ### "That foreign song is so catchy!!
 
 But I don't know how to spell it... now I can't find it again :("
