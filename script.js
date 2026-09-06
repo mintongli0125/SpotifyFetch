@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Spotify song title fetcher</title>
-</head>
-<body>
-<h2>Spotify song title fetcher</h2>
-<p>Paste Spotify links here:</p>
-<textarea id="links" placeholder="https://open.spotify.com/track/..." style="width:90vw; height:30vh;"></textarea>
-<br><br>
-<button id="fetch">Fetch those titles!</button>
-
-<h3>Output:</h3>
-<p>(Disclaimer – Spotify API's kinda slow, so just give it some time)</p>
-<pre id="output" style="background:#f0f0f0;padding:10px;"></pre>
-
-<script>
-const clientId = "017529365a5e4ae091bb0d308511e756";
-const clientSecret = "d5d21af0e4854bfdb5c1b0d88f137e10";
+const clientId = "hiddenId";
+const clientSecret = "hiddenSecret";
 
 async function getAccessToken() {
     const resp = await fetch("https://accounts.spotify.com/api/token", {
@@ -66,6 +48,3 @@ document.getElementById("fetch").addEventListener("click", async () => {
         output.textContent = "Error: " + err.message;
     }
 });
-</script>
-</body>
-</html>
