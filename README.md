@@ -8,7 +8,7 @@ But I don't know how to spell it... now I can't find it again :("
 
 But all Spotify gives me is a bunch of links..."
 
-Don't worry, SpotifyFetch can help!
+Don't worry, SpotifyFetch's here to help!
 
 <img height="280" alt="Screenshot 2026-09-06 at 11 55 27 PM" src="https://github.com/user-attachments/assets/8f8b9e4c-3f33-4193-8851-c951097a5970" />
 
