@@ -1,9 +1,3 @@
-## UPDATE
-
-SpotifyFetch doesn't work anymore because I don't have Spotify Premium 🥹 while I figure that out... here's the old README:
-
-##
-
 ### "That foreign song is so catchy!!
 
 But I don't know how to spell it... now I can't find it again :("
@@ -15,6 +9,8 @@ But I don't know how to spell it... now I can't find it again :("
 But all Spotify gives me is a bunch of links..."
 
 Don't worry, SpotifyFetch can help!
+
+<img width="954" height="480" alt="Screenshot 2026-09-06 at 11 55 27 PM" src="https://github.com/user-attachments/assets/8f8b9e4c-3f33-4193-8851-c951097a5970" />
 
 ## Instructions
 
@@ -29,4 +25,6 @@ If you're using Spotify PC / Web:
 
 Had this problem myself, so I decided to fix it :) you can use this to copy and paste song info for a big playlist, too.
 
-Initially deployed at [https://spotifyfetch.netlify.app/](https://spotifyfetch.netlify.app/)
+## Credits
+
+Claressa Yong ([Instagram](https://www.instagram.com/clare.yg/)): the goat for letting me use your Spotify Premium so I can grab a web API <3
