@@ -15,57 +15,7 @@
 <p>(Disclaimer – Spotify API's kinda slow, so just give it some time)</p>
 <pre id="output" style="background:#f0f0f0;padding:10px;"></pre>
 
-<script>
-const clientId = "hiddenId";
-const clientSecret = "hiddenSecret";
+<script src="script.js"></script>
 
-async function getAccessToken() {
-    const resp = await fetch("https://accounts.spotify.com/api/token", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "Authorization": "Basic " + btoa(clientId + ":" + clientSecret)
-        },
-        body: "grant_type=client_credentials"
-    });
-    const data = await resp.json();
-    return data.access_token;
-}
-
-async function getTrackTitle(trackId, token) {
-    const resp = await fetch(`https://api.spotify.com/v1/tracks/${trackId}`, {
-        headers: { Authorization: "Bearer " + token }
-    });
-    const data = await resp.json();
-    return `${data.name} by ${data.artists.map(a => a.name).join(', ')}`;
-}
-
-document.getElementById("fetch").addEventListener("click", async () => {
-    const links = document.getElementById("links").value
-                    .split("\n")
-                    .map(l => l.trim())
-                    .filter(l => l);
-    
-    const output = document.getElementById("output");
-    output.textContent = "Fetching titles... patience please!";
-    
-    try {
-        const token = await getAccessToken();
-        const results = [];
-        for (const link of links) {
-            const trackId = link.split("/track/")[1]?.split("?")[0];
-            if (trackId) {
-                const title = await getTrackTitle(trackId, token);
-                results.push(title);
-            } else {
-                results.push(`Invalid link: ${link}`);
-            }
-        }
-        output.textContent = results.join("\n");
-    } catch (err) {
-        output.textContent = "Error: " + err.message;
-    }
-});
-</script>
 </body>
 </html>
