@@ -27,4 +27,4 @@ Had this problem myself, so I decided to fix it :) you can use this to copy and 
 
 ## Credits
 
-Claressa Yong ([Instagram](https://www.instagram.com/clare.yg/)): the goat for letting me use your Spotify Premium so I can grab a web API <3
+Claressa Yong ([Instagram](https://www.instagram.com/clare.yg/)): the goat for lending me her Spotify Premium <3
