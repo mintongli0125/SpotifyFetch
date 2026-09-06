@@ -10,7 +10,7 @@ But all Spotify gives me is a bunch of links..."
 
 Don't worry, SpotifyFetch can help!
 
-<img width="954" height="480" alt="Screenshot 2026-09-06 at 11 55 27 PM" src="https://github.com/user-attachments/assets/8f8b9e4c-3f33-4193-8851-c951097a5970" />
+<img height="280" alt="Screenshot 2026-09-06 at 11 55 27 PM" src="https://github.com/user-attachments/assets/8f8b9e4c-3f33-4193-8851-c951097a5970" />
 
 ## Instructions
 
